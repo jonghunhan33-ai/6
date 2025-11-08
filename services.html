@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO MARITIME SERVICE - 서비스</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="logo.jpg" alt="NEO MARITIME SERVICE Logo" class="logo">
+                <span class="company-name">NEO MARITIME SERVICE</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" data-translate-key="menu_home">홈</a></li>
+                    <li><a href="about.html" data-translate-key="menu_about">회사소개</a></li>
+                    <li><a href="services.html" class="active" data-translate-key="menu_services">서비스</a></li>
+                    <li><a href="contact.html" data-translate-key="menu_contact">문의하기</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <button onclick="setLanguage('ko')">KR 한국어</button>
+                <button onclick="setLanguage('en')">EN ENGLISH</button>
+                <button onclick="setLanguage('es')">ES ESPANOL</button>
+                <button onclick="setLanguage('zh')">ZH 中文</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section sub-page-hero" id="services-hero">
+            <h1 data-translate-key="services_hero_title">종합 선박 보급 서비스</h1>
+            <p data-translate-key="services_hero_subtitle">파나마 운하 지역 및 주요 항구에서 최고 수준의 선박 보급 및 관리 서비스를 제공합니다.</p>
+        </section>
+
+        <section class="services-list content-section">
+            <div class="service-item">
+                <h3 data-translate-key="service1_h3">선식 (Provision) 공급</h3>
+                <p data-translate-key="service1_p">신선하고 품질 좋은 식자재와 음료를 신속하게 공급하여 선원들의 건강과 사기를 책임집니다.</p>
+            </div>
+            <div class="service-item">
+                <h3 data-translate-key="service2_h3">선용품 (Store) 공급</h3>
+                <p data-translate-key="service2_p">엔진, 갑판, 선실용 소모품부터 전문 장비까지 광범위한 선용품을 제공합니다.</p>
+            </div>
+            <div class="service-item">
+                <h3 data-translate-key="service3_h3">선박 관리 및 수리 지원</h3>
+                <p data-translate-key="service3_p">선박의 효율적인 운영을 위한 각종 유지보수 및 긴급 수리 지원 서비스를 제공합니다.</p>
+            </div>
+            <div class="service-item">
+                <h3 data-translate-key="service4_h3">연료 및 윤활유 공급</h3>
+                <p data-translate-key="service4_p">국제 규격에 맞는 고품질의 연료와 윤활유를 신뢰성 높은 네트워크를 통해 공급합니다.</p>
+            </div>
+        </section>
+
+        <section class="call-to-action-section">
+            <h2 data-translate-key="services_contact_h2">당신의 다음 항해를 위한 신뢰할 수 있는 파트너</h2>
+            <p data-translate-key="services_contact_p">지금 바로 문의하여 최적의 선박 보급 솔루션을 받아보세요. </p>
+            <a href="contact.html" class="button primary" data-translate-key="btn_contact">문의하기</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo.jpg" alt="NEO MARITIME SERVICE Logo" class="logo">
+                <p>NEO MARITIME SERVICE</p>
+            </div>
+            <div class="contact-info">
+                <h3 data-translate-key="footer_korea_h3">🇰🇷 한국 사무소</h3>
+                <p>광주광역시 광산구 목련로 394번길 64</p>
+                <p>Tel: +82 62 952 8085</p>
+                <p>Emergency: +82 10 4124 6955</p>
+                <p>Email: korea@neomaritimeservice.com</p>
+            </div>
+            <div class="contact-info">
+                <h3 data-translate-key="footer_panama_h3">🇵🇦 파나마 사무소</h3>
+                <p>Calle 63a oeste 23. Casa 2. El Ingenio. Panama. Republica de Panama.</p>
+                <p>Tel: +507 6230 4072</p>
+                <p>Emergency: +507 6090 9993</p>
+                <p>Email: <a href="mailto:panama@neomaritimeservice.com">panama@neomaritimeservice.com</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 NEO MARITIME SERVICE. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

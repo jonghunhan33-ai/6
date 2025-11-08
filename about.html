@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO MARITIME SERVICE - 회사소개</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="logo.jpg" alt="NEO MARITIME SERVICE Logo" class="logo">
+                <span class="company-name">NEO MARITIME SERVICE</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" data-translate-key="menu_home">홈</a></li>
+                    <li><a href="about.html" class="active" data-translate-key="menu_about">회사소개</a></li>
+                    <li><a href="services.html" data-translate-key="menu_services">서비스</a></li>
+                    <li><a href="contact.html" data-translate-key="menu_contact">문의하기</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <button onclick="setLanguage('ko')">KR 한국어</button>
+                <button onclick="setLanguage('en')">EN ENGLISH</button>
+                <button onclick="setLanguage('es')">ES ESPANOL</button>
+                <button onclick="setLanguage('zh')">ZH 中文</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section sub-page-hero" id="about-hero">
+            <h1 data-translate-key="about_hero_title">회사 소개</h1>
+            <p data-translate-key="about_hero_subtitle">NEO MARITIME SERVICE는 글로벌 해운 산업의 신뢰할 수 있는 파트너입니다.</p>
+        </section>
+
+        <section class="content-section">
+            <h2 data-translate-key="about_history_h2">우리의 발자취</h2>
+            <p data-translate-key="about_history_p">2010년 설립 이래 파나마 운하 지역을 중심으로 최고 품질의 선박 보급 및 관리 서비스를 제공하며 성장해 왔습니다. 글로벌 네트워크 확장과 기술 혁신을 통해 고객 만족을 최우선으로 합니다.</p>
+        </section>
+
+        <section class="team-section content-section">
+            <h2 data-translate-key="about_team_h2">경영진 소개</h2>
+            <div class="team-member">
+                <div class="member-image-placeholder"></div>
+                <div class="member-info">
+                    <h3 data-translate-key="about_ceo1_h3">Juan C.</h3>
+                    <p class="title" data-translate-key="about_ceo1_title">파나마 CEO</p>
+                    <p data-translate-key="about_ceo1_p">해운 물류 전문가이자 파나마 현지 네트워크의 핵심 인물로, 현장 운영을 총괄하며 신속하고 정확한 서비스를 보장합니다.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image-placeholder"></div>
+                <div class="member-info">
+                    <h3 data-translate-key="about_ceo2_h3">KIM J.</h3>
+                    <p class="title" data-translate-key="about_ceo2_title">한국 CEO</p>
+                    <p data-translate-key="about_ceo2_p">한국 물류회사 대표 및 20년이상 경력의 선박 전문가로 한국 운영을 총괄하며 효율적이고 체계적인 보급 서비스를 제공합니다.</p>
+                </div>
+            </div>
+            <a href="services.html" class="button primary" data-translate-key="btn_view_services">서비스 바로가기</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo.jpg" alt="NEO MARITIME SERVICE Logo" class="logo">
+                <p>NEO MARITIME SERVICE</p>
+            </div>
+            <div class="contact-info">
+                <h3 data-translate-key="footer_korea_h3">🇰🇷 한국 사무소</h3>
+                <p>광주광역시 광산구 목련로 394번길 64</p>
+                <p>Tel: +82 62 952 8085</p>
+                <p>Emergency: +82 10 4124 6955</p>
+                <p>Email: korea@neomaritimeservice.com</p>
+            </div>
+            <div class="contact-info">
+                <h3 data-translate-key="footer_panama_h3">🇵🇦 파나마 사무소</h3>
+                <p>Calle 63a oeste 23. Casa 2. El Ingenio. Panama. Republica de Panama.</p>
+                <p>Tel: +507 6230 4072</p>
+                <p>Emergency: +507 6090 9993</p>
+                <p>Email: <a href="mailto:panama@neomaritimeservice.com">panama@neomaritimeservice.com</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 NEO MARITIME SERVICE. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
